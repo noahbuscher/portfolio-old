@@ -110,7 +110,7 @@ hr {
 .grid {
   width: 100%; }
   .grid .row {
-    max-width: 1080px;
+    max-width: 1000px;
     margin: 0 auto 40px auto;
     display: flex;
     flex-direction: row; }
