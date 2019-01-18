@@ -1,2 +1,2 @@
 # noahbuscher.com
-Eventually my home :home:
+Eventually my home :house:
