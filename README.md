@@ -1,2 +1,3 @@
 # noahbuscher.com
-Eventually my home :house:
+
+The tiny house of portfolios :house:
