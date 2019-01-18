@@ -1,0 +1,110 @@
+h1 {
+  font-family: $base-font-family;
+  font-weight: $font-weight-bold;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  color: $noah-black;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  font-family: $base-font-family;
+  font-weight: $font-weight-regular;
+  font-size: 1em;
+  color: $noah-mid-gray;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+p {
+  font-family: $base-font-family;
+  font-weight: $font-weight-regular;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  color: $noah-black;
+  padding: 0;
+  margin: 0 0 20px 0;
+
+  &.p-sm {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $noah-blue;
+  transition: all $base-animation-time;
+
+  &:hover {
+    color: lighten($noah-blue, 20%);
+    transition: all $base-animation-time;
+  }
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: $noah-light-gray;
+  margin: 20px 0;
+}
+
+/**
+ * Colors
+ */
+.text-yellow {
+  color: $noah-yellow;
+
+  &:hover {
+    color: lighten($noah-yellow, 10%);
+  }
+}
+
+.text-magenta {
+  color: $noah-magenta;
+
+  &:hover {
+    color: lighten($noah-magenta, 20%);
+  }
+}
+
+.text-green {
+  color: $noah-green;
+
+  &:hover {
+    color: lighten($noah-green, 20%);
+  }
+}
+
+.text-purple {
+  color: $noah-purple;
+
+  &:hover {
+    color: lighten($noah-purple, 20%);
+  }
+}
+
+.text-pink {
+  color: $noah-pink;
+
+  &:hover {
+    color: lighten($noah-pink, 10%);
+  }
+}
+
+/**
+ * Styles
+ */
+.text-right {
+  text-align: right;
+
+  @media only screen and (max-width: $grid-bkpt-tablet) {
+    text-align: left;
+  }
+}
+
+.strikeout {
+  text-decoration: line-through;
+}

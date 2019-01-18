@@ -1,0 +1,26 @@
+.project {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  border: 1px solid $noah-light-gray;
+  border-radius: 7px;
+  padding: 20px;
+
+  .project-icon {
+    flex: 1;
+    margin-right: $grid-gutter-width;
+
+    img {
+      width: 60px;
+      height: auto;
+    }
+  }
+
+  .project-description {
+    flex: 6;
+
+    h1 {
+      margin-bottom: 5px;
+    }
+  }
+}

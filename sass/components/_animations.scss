@@ -1,0 +1,14 @@
+@keyframes wave {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(20deg); }
+}
+
+.wave {
+  position: absolute;
+  margin-left: 5px;
+  animation-name: wave;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: 4;
+}

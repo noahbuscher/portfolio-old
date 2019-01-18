@@ -1,0 +1,53 @@
+.container {
+  margin: 100px 0;
+
+  @media only screen and (max-width: $grid-bkpt-tablet) {
+    margin: 40px;
+  }
+}
+
+.grid {
+  width: 100%;
+
+  .row {
+    max-width: $grid-max-width;
+    margin: 0 auto $grid-gutter-width auto;
+    display: flex;
+    flex-direction: row;
+
+    @media only screen and (max-width: $grid-bkpt-tablet) {
+      flex-direction: column;
+    }
+
+    .col-1 {
+      flex: 1;
+    }
+
+    .col-2 {
+      flex: 2;
+    }
+
+    .col-3 {
+      flex: 3;
+    }
+
+    div[class^="col"] {
+      margin-right: $grid-gutter-width;
+
+      @media only screen and (max-width: $grid-bkpt-tablet) {
+        flex: 1 1 auto;
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+      }
+
+      &:last-child {
+        margin-right: 0;
+
+        @media only screen and (max-width: $grid-bkpt-tablet) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
