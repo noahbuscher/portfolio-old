@@ -94,7 +94,7 @@ hr {
  */
 .text-right {
   text-align: right; }
-  @media only screen and (max-width: 960px) {
+  @media only screen and (max-width: 1024px) {
     .text-right {
       text-align: left; } }
 
@@ -103,7 +103,7 @@ hr {
 
 .container {
   margin: 100px 0; }
-  @media only screen and (max-width: 960px) {
+  @media only screen and (max-width: 1024px) {
     .container {
       margin: 40px; } }
 
@@ -114,7 +114,7 @@ hr {
     margin: 0 auto 40px auto;
     display: flex;
     flex-direction: row; }
-    @media only screen and (max-width: 960px) {
+    @media only screen and (max-width: 1024px) {
       .grid .row {
         flex-direction: column; } }
     .grid .row .col-1 {
@@ -125,7 +125,7 @@ hr {
       flex: 3; }
     .grid .row div[class^="col"] {
       margin-right: 40px; }
-      @media only screen and (max-width: 960px) {
+      @media only screen and (max-width: 1024px) {
         .grid .row div[class^="col"] {
           flex: 1 1 auto;
           max-width: 100%;
@@ -133,7 +133,7 @@ hr {
           margin-bottom: 30px; } }
       .grid .row div[class^="col"]:last-child {
         margin-right: 0; }
-        @media only screen and (max-width: 960px) {
+        @media only screen and (max-width: 1024px) {
           .grid .row div[class^="col"]:last-child {
             margin-bottom: 0; } }
 
