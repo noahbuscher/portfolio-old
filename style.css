@@ -24,7 +24,7 @@ h1 {
   line-height: 1.2em;
   color: #000000;
   padding: 0;
-  margin: 0 0 20px 0; }
+  margin: 0; }
 
 h2 {
   font-family: "IBM Plex Sans", sans-serif;
@@ -92,6 +92,9 @@ hr {
 /**
  * Styles
  */
+.text-center {
+  text-align: center; }
+
 .text-right {
   text-align: right; }
   @media only screen and (max-width: 1024px) {
@@ -151,15 +154,17 @@ hr {
   animation-direction: alternate;
   animation-iteration-count: 4; }
 
-nav a {
-  display: block;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  line-height: 1.4em;
-  color: #C4C4C4;
-  padding: 0;
-  text-decoration: none; }
+nav {
+  margin-bottom: 20px; }
+  nav a {
+    display: block;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #C4C4C4;
+    padding: 0;
+    text-decoration: none; }
 
 .project {
   display: flex;
@@ -184,5 +189,30 @@ footer {
 
 .about {
   margin-bottom: 20px; }
+
+.intro {
+  margin-bottom: 20px;
+  display: inline-block; }
+  .intro .intro-inner {
+    display: flex;
+    background-color: #F0F0F0;
+    border-radius: 30px;
+    display: flex;
+    align-items: center; }
+    .intro .intro-inner:before {
+      background-image: url("./images/me.jpg");
+      width: 50px;
+      height: 50px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 100%;
+      display: inline-block;
+      vertical-align: middle;
+      content: "";
+      display: inline-block; }
+    .intro .intro-inner .text {
+      display: inline-block;
+      padding: 0 20px 0 10px; }
 
 /*# sourceMappingURL=style.css.map */

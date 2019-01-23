@@ -1,3 +1,39 @@
 .about {
   margin-bottom: 20px;
 }
+
+.intro {
+  margin-bottom: 20px;
+  display: inline-block;
+
+  .intro-inner {
+    display: flex;
+    background-color: $noah-off-white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+
+    &:before {
+      background-image: url('./images/me.jpg');
+      width: 50px;
+      height: 50px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 100%;
+      display: inline-block;
+      vertical-align: middle;
+      content: "";
+      display: inline-block;
+    }
+
+    .text {
+      display: inline-block;
+      padding: 0 20px 0 10px;
+    }
+  }
+}
+
+.profile {
+
+}
