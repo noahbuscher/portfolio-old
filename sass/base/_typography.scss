@@ -62,6 +62,14 @@ hr {
   }
 }
 
+.text-red {
+  color: $noah-red;
+
+  &:hover {
+    color: lighten($noah-red, 10%);
+  }
+}
+
 .text-magenta {
   color: $noah-magenta;
 
